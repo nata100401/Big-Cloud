@@ -2,34 +2,37 @@
 	margin: 0px;
 	padding: 0px;
 }
+
 header{
 background: white;
 height: 85px;
-padding: 20px 150px;
+padding: 20px 185px;
+}
+
+.logo{
+	margin left: 2000px;
+}
+
+@media only screen and (max-width: 200px){
+	body{
+		background-color: #FFCCFF;
+	}
 }
 
 .main{
 	background-image: url('../img/bg-seccion1.png');
+	background-position: center;
+	height: 800px;
 	border: 1px solid black;
 	background-size: cover; 
-	background-repeat: no-repeat;   
-	background-position: center;
-	height: 800px; 
+	background-repeat: no-repeat; 
 }
 .container{
 	margin-left:500px;	
 }
-footer{
-	background: #0D0D0D;
-	color: white;
-	text-align: left;
-	clear: both;
-	padding: 20px 20px;
-	margin: 0 auto;
-	width: 70%;
 
 } 
-li a{	
+.container >.opcion>li >a{	
 	background: #F01281;
 	text-decoration: none;
 	float:left;
@@ -43,13 +46,8 @@ li a{
 	color: white;
 	margin-left: 10px;
 }
-a:hover{
-	background: blue;
-	color: white;
-	float: left;
 
-}
-.lugar{
+.opcion{
 	list-style: none;
     font-size: 25px;
 	margin-top: 270px;
@@ -80,18 +78,72 @@ aside{
 	float: left;
 
 }
-footer{
-	border-top: 5px solid #F01281;
-	clear: both;
-}
-.bis{
+
+.doce{
 	margin-top: 150px;
 	position: relative;
 	float: left;
 }
-.dis{
-	margin-left: 20px;
+.trece{
+	margin-left: 70px;
 }
+
+@media only screen and (max-width: 700px){
+	footer{
+		margin: 0;
+		overflow: hidden;
+		width: 100%;
+		font-variant: small-caps;
+	}
+}
+
+footer{
+	background: black;
+	color:white;
+	text-align:left; 
+	clear: both;
+	padding: 10px;
+	margin: 0 auto;
+	width: 100%;
+	border-top: 10px solid #FC1966;
+}
+	
+
+.container0{
+	position: relative;
+	left: 13%;
+	
+}
+.oli{
+	text-decoration: none;
+	display: block;
+	background: #FF0033;
+	color: white;
+	float: left;
+	width: 145px;
+	text-align: center;
+	padding: 10px;
+	font-size: 35px;
+	margin-top: 4%;
+}
+.olile{
+	margin-left: 6px;
+	text-decoration: none;
+	display: block;
+	background: #FF0033;
+	color: white;
+	float: left;
+	width: 145px;
+	text-align: center;
+	padding: 10px;
+	font-size: 35px;
+	margin-top: 4%;
+}
+
+
+
+
+
 
 
 

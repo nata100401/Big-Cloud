@@ -1,0 +1,99 @@
+header{
+background: white;
+height: 85px;
+padding: 20px 185px;
+}
+
+.logo{
+	margin left: 2000px;
+}
+
+h1{
+	margin-left: 170px;
+	font-size: 40px;
+	font-family: arial;
+}
+
+fieldset{
+	margin-right: 400px;
+	margin-left: 250px;
+	border-color: #FF0066;
+	font-size: 18px;
+	font-family: arial;
+}
+
+@media only screen and (max-width: 700px){
+	footer{
+		margin: 0;
+		overflow: hidden;
+		width: 100%;
+		font-variant: small-caps;
+	}
+}
+
+h4{
+	color:black;
+}
+
+a{
+	color:#999999;
+	font-size: 105px;
+}
+.radio{
+padding-left: 90px;
+margin-left:.5em;
+}
+
+h5{
+color: #AA0000;
+font-weight: normal; 
+}
+
+h6{
+color: #777777;
+font-size: 8px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+
+.fa:hover{
+	-webkit-transition: background 4s ease;
+-moz-transition: background 4s ease;
+-ms-transition: background 4s ease;
+-o-transition: background 4s ease;
+transition: background 4s ease;
+background: #C9FF6D;
+}
+
+.trece{
+	margin-left: 210px;
+}
+
+footer{
+	background: black;
+	color:white;
+	text-align:left; 
+	clear: both;
+	padding: 10px;
+	margin: 0 auto;
+	width: 100%;
+
+	
+}
+.linea{
+	background: #FC1966;
+	padding: 3px;
+
+}
+
+
+.container3{
+	position: relative;
+	left: 13%;
+	
+}
+
+
